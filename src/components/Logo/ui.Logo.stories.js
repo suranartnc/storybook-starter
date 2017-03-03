@@ -6,3 +6,6 @@ storiesOf('ui.Logo', module)
   .add('with default style', () => (
     <Logo />
   ))
+  .add('with custom width', () => (
+    <Logo width="200" />
+  ))
