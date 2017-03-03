@@ -10,12 +10,12 @@ const decorator = {
   border: '1px solid gray'
 }
 
-storiesOf('Footer', module)
+storiesOf('layout.Footer', module)
   .addDecorator((story) => (
     <div style={decorator}>
       {story()}
     </div>
   ))
-  .add('Normal', () => (
+  .add('with default styles', () => (
     <Footer />
   ));
