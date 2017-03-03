@@ -1,9 +1,10 @@
 import React from 'react'
+import s from './Footer.scss'
 
 function Footer () {
   return (
-    <footer>
-      Footer
+    <footer className={s.container}>
+      <p>Footer</p>
     </footer>
   )
 }

@@ -5,9 +5,7 @@ import Footer from './Footer';
 const decorator = {
   width: '100%',
   maxWidth: '960px',
-  margin: '0 auto',
-  textAlign: 'center',
-  border: '1px solid gray'
+  margin: '0 auto'
 }
 
 storiesOf('layout.Footer', module)

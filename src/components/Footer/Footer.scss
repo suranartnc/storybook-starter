@@ -1,0 +1,15 @@
+// Sass usage
+
+$red: #ff0000;
+$white: #fff;
+
+.container {
+  background: $red;
+  p {
+    margin: 0;
+    padding: 15px;
+    font-family: arial, 'san-serif';
+    color: $white;
+    text-align: center;
+  }
+}
