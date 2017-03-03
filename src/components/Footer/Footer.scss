@@ -9,7 +9,13 @@ $white: #fff;
     margin: 0;
     padding: 15px;
     font-family: arial, 'san-serif';
-    color: $white;
     text-align: center;
+  }
+}
+
+.copyright {
+  color: $white;
+  &:global(.active) {
+    color: green;
   }
 }

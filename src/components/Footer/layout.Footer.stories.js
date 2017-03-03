@@ -16,4 +16,7 @@ storiesOf('layout.Footer', module)
   ))
   .add('with default styles', () => (
     <Footer />
+  ))
+  .add('with active state', () => (
+    <Footer active={true} />
   ));
